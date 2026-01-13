@@ -30,5 +30,18 @@ public class InventorySystem {
             Thread.currentThread().interrupt();
         }
     }
+
+    /**
+     * BONUS: Release reserved inventory - for rollback scenarios
+     */
+    public void releaseInventory(Long orderId) {
+        try {
+            System.out.println("[Inventory] Releasing reserved items for order " + orderId + "...");
+            Thread.sleep(50);
+            System.out.println("[Inventory] Order " + orderId + ": RELEASED");
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+    }
 }
 
