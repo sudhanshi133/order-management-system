@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tekion</groupId>
-	<artifactId>order-management</artifactId>
+	<artifactId>ecommerce</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>order-management</name>
+	<name>ecommerce</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
